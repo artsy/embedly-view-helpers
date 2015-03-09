@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) {
+         bar(1 + 5)
+      }
+  body
+    img( src=crop('http://placekitten.com/400/900', { width: 400, height: 400, quality: 90 }) )
+    img( src=resize('http://placekitten.com/400/900', { width: 200 }) )
+    img( src=fill('http://placekitten.com/400/900', { width: 1000, height: 1000, color: '000' }) )
