@@ -28,7 +28,7 @@ $('img').attr('src', crop(//...))
 
 ## Contributing
 
-Please fork the project and submit a pull request with tests. Install node modules `npm install` and run tests with `npm test`. You can look at the example by passing your Embedly key a an env variable `EMBEDLY_KEY=X npm run example`.
+Please fork the project and submit a pull request with tests. Install node modules `npm install` and run tests with `npm test`. You can look at the example by passing your Embedly key as an env variable `EMBEDLY_KEY=X npm run example`.
 
 ## License
 
