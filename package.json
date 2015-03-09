@@ -1,0 +1,32 @@
+{
+  "name": "embedly-view-helpers",
+  "version": "1.0.0",
+  "description": "A library of view helper functions to leverage Embedly for on-the-fly image processing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r should test.js",
+    "example": "node example/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artsy/embedly-view-helpers.git"
+  },
+  "keywords": [
+    "view",
+    "helpers",
+    "embedly"
+  ],
+  "author": "Craig Spaeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artsy/embedly-view-helpers/issues"
+  },
+  "homepage": "https://github.com/artsy/embedly-view-helpers",
+  "devDependencies": {
+    "express": "*",
+    "browserify": "*",
+    "jade": "*",
+    "mocha": "*",
+    "should": "*"
+  }
+}
