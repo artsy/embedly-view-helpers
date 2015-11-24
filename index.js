@@ -26,6 +26,14 @@ module.exports = function(embedlyKey) {
       options.key = embedlyKey;
       options.url = url;
       return "https://i.embed.ly/1/display/fill?" + qs.stringify(options)
+    },
+
+    oembed: function (url, options) {
+      if (!options) options = {};
+      if (!options.maxwidth) options.maxwidth = 1100;
+      options.key = embedlyKey;
+      options.url = url;
+      return "https://api.embed.ly/1/oembed?" + qs.stringify(options)
     }
   };
 }
