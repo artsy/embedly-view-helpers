@@ -25,4 +25,12 @@ describe('embedly view helpers', function () {
         .should.equal('https://i.embed.ly/1/display/fill?quality=95&color=fff&key=foo-bar&url=http%3A%2F%2Ffoobar.com%2Fkitten%2F1%2F2');
     });
   });
+
+  describe('oembed', function() {
+
+    it('returns a oembed url for embedly', function() {
+      helpers.oembed('https://vimeo.com/126659029')
+        .should.equal('https://api.embed.ly/1/oembed?maxwidth=1100&key=foo-bar&url=https%3A%2F%2Fvimeo.com%2F126659029');
+    });
+  });
 });

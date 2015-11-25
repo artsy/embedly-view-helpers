@@ -1,6 +1,6 @@
 {
   "name": "embedly-view-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library of view helper functions to leverage Embedly for on-the-fly image processing.",
   "main": "index.js",
   "scripts": {
